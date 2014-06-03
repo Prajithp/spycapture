@@ -4,7 +4,7 @@ SpyCapture
 Simple spy screen capture for linux - ONLY tested in debian based distros, feel free to test this and if you have any issues just open a new ISSUE here.
 
 
-#####Requirements:
+###Requirements:
 
 * Gtk2
 * File::Pid
@@ -22,19 +22,21 @@ OR You can also use  cpanminus to install those modules, simply execute the comm
 
 ```
 curl -L http://cpanmin.us | perl - module name here
+              OR
+cpan install module name here              
 
 # If you don't have curl but wget, replace `curl -L` with `wget -O -`.
 ```
 
-#####INSTALL
+###INSTALL
 
 Download the zip archive or clone the source code into the PC and follow the below instructions.
 
-Copy the spycapture.conf to /etc/
+Copy spycapture.conf to /etc/
 ```
 cp -r spycapture.conf /etc/
 ```
-Copy the lib and bin folder to /usr/local/spycapture/ and set executable permission to binary
+Copy lib and bin folder to /usr/local/spycapture/ and set executable permission to the perl script
 ```
 mkdir /usr/local/spycapture
 cp -r lib /usr/local/spycapture/
@@ -45,5 +47,6 @@ Create a symlink to OS command PATH
 ```
 ln -s /usr/local/spycapture/bin/capture.pl /usr/local/bin/spycapture
 ```
+
 
 
