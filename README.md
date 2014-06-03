@@ -1,7 +1,7 @@
 SpyCapture
 ==========
 
-Simple spy screen capture for linux - ONLY tested in debian based distros, feel free to test this and if you have any issues just open a new ISSUE here.
+Simple spy screen capture for linux - ONLY tested on debian based distros, feel free to test this and if you have any issues just open a new ISSUE here.
 
 
 ###Requirements:
