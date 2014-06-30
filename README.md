@@ -1,7 +1,7 @@
 SpyCapture
 ==========
 
-Simple spy screen capture for linux - ONLY tested on debian based distros, feel free to test this and if you have any issues just open a new ISSUE here.
+Simple spy screen capture for linux - ONLY tested on debian based distros.
 
 
 ###Requirements:
@@ -48,5 +48,6 @@ Create a symlink to OS command PATH
 ln -s /usr/local/spycapture/bin/capture.pl /usr/local/bin/spycapture
 ```
 
+###Configuration
 
-
+Modify the configuration file "/etc/spycapture.conf" as per your needs. 
