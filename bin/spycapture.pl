@@ -2,7 +2,7 @@
 
 BEGIN {
     unshift @INC, '/usr/local/spycapture/lib'; }
-}
+};
 
 use strict;
 use POSIX;
