@@ -1,8 +1,8 @@
 #!/usr/bin/perl
 
 BEGIN {
-    unshift @INC, '/usr/local/spycapture/lib'; }
-};
+    unshift @INC, '/usr/local/spycapture/lib';
+}
 
 use strict;
 use POSIX;
