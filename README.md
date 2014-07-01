@@ -32,22 +32,18 @@ cpan install module name here
 
 Download the zip archive or clone the source code into the PC and follow the below instructions.
 
-Copy spycapture.conf to /etc/
-```
-cp -r spycapture.conf /etc/
-```
-Copy lib and bin folder to /usr/local/spycapture/ and set executable permission to the perl script
+Copy lib, bin and etc folders to /usr/local/spycapture/ and set executable permission to the perl script
 ```
 mkdir /usr/local/spycapture
 cp -r lib /usr/local/spycapture/
 cp -r bin /usr/local/spycapture/
-chmod 700 /usr/local/spycapture/bin/capture.pl
+chmod 700 /usr/local/spycapture/bin/spycapture.pl
 ```
 Create a symlink to OS command PATH
 ```
-ln -s /usr/local/spycapture/bin/capture.pl /usr/local/bin/spycapture
+ln -s /usr/local/spycapture/bin/spycapture.pl /usr/local/bin/spycapture
 ```
 
 ###Configuration
 
-Modify the configuration file "/etc/spycapture.conf" as per your needs. 
+Modify the configuration file "/usr/local/spycapture/etc/spycapture.conf" as per your needs. 
