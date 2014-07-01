@@ -44,6 +44,7 @@ sub save_file {
   
   my $config = $self->{config};
   my $logger = $self->{logger};
+  my $storage_mode = $self->{storage_mode};
     
   if ($storage_mode eq 'ftp') {
     $self->_save_to_ftp($user, $pixbuf);
